@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Threaded Insert Press Open Source](https://github.com/exibiliar/Threaded-Insert-Press-Open-source)
 
-- 
+- 🔭 I’m currently working on [E3NG 1.2 Config](https://github.com/exibiliar/E3NG-1.2-Config)
 
 - 🌱 I’m currently learning **Python and CAD modeling**
 
