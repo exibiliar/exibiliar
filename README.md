@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm HexLions</h1>
 <h3 align="center">Just a tipical nerd</h3>
 
-- 🔭 I’m currently working on [Threaded Insert Press Open Source](https://github.com/exibiliar/Threaded-Insert-Press-Open-source)
+- 🔭 I’m currently working on [Threaded Insert Press Open Source](https://github.com/HexLions/Threaded-Insert-Press-Open-source)
 
-- 🔭 I’m currently working on [E3NG 1.2 Config](https://github.com/exibiliar/E3NG-1.2-Config)
+- 🔭 I’m currently working on [E3NG 1.2 Config](https://github.com/HexLions/E3NG-1.2-Config)
 
 - 🌱 I’m currently learning **Python and CAD modeling**
 
