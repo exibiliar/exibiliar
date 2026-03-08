@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Exibiliar</h1>
+<h1 align="center">Hi 👋, I'm HexLions</h1>
 <h3 align="center">Just a tipical nerd</h3>
 
 - 🔭 I’m currently working on [Threaded Insert Press Open Source](https://github.com/exibiliar/Threaded-Insert-Press-Open-source)
