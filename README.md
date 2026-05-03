@@ -81,12 +81,92 @@
 
 ```console
 ┌─[hexlions@enterprise]─[~/projects]
-└──╼ $ ls -lah
+└──╼ $ ls -lah --sort=stars
 ```
 
 <div align="center">
 
 <table>
+<tr>
+<td width="50%">
+
+### 🫐 Pi-PaaS
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Active          ⭐ 9    │
+│  TYPE:   Open Source             │
+│  LANG:   HTML / JS / Shell       │
+└──────────────────────────────────┘
+```
+
+The tiniest self-hosted PaaS for your Raspberry Pi. Deploy, manage, edit and backup web apps directly from your browser. Two editions: **Standalone** (no Docker) and **Docker** (containerized).
+
+**STACK:** `Node.js` `HTML` `Shell` `Docker`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/pi-paas)**
+
+</td>
+<td width="50%">
+
+### ⚙️ E3NG 1.2 Config
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Maintained      ⭐ 1    │
+│  TYPE:   Configuration           │
+│  LANG:   Firmware / Klipper      │
+└──────────────────────────────────┘
+```
+
+Modern Klipper configuration for Ender 3 NG CoreXY with Orbiter 2.0. Advanced menu system, 40+ macros, print statistics and quick actions.
+
+**STACK:** `Klipper` `Marlin` `3D Printing` `Hardware`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/E3NG-1.2-Config)**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📡 ESP01-Monitor
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Active   v2.1           │
+│  TYPE:   Embedded / IoT          │
+│  LANG:   C++                     │
+└──────────────────────────────────┘
+```
+
+ESP8266-based service monitoring system for homelab. Monitors up to 50 HTTP/HTTPS services with OLED display, web dashboard and smart Telegram notifications.
+
+**STACK:** `C++` `Arduino` `ESP8266` `IoT`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/esp01-monitor)**
+
+</td>
+<td width="50%">
+
+### 📷 ESP32-CAM for Klipper
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Active                  │
+│  TYPE:   Embedded / 3D Print     │
+│  LANG:   C++                     │
+└──────────────────────────────────┘
+```
+
+ESP32-CAM integration for Klipper 3D printing firmware. Camera streaming and monitoring directly from the printer control interface.
+
+**STACK:** `C++` `ESP32` `Klipper` `Hardware`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/ESP32-CAM-for-Klipper)**
+
+</td>
+</tr>
 <tr>
 <td width="50%">
 
@@ -96,7 +176,7 @@
 ┌──────────────────────────────────┐
 │  STATUS: Active                  │
 │  TYPE:   Open Source             │
-│  LANG:   CAD/Manufacturing       │
+│  LANG:   CAD / Manufacturing     │
 └──────────────────────────────────┘
 ```
 
@@ -109,21 +189,21 @@ Open-source parametric 3D printable press for threaded inserts. Fully parametric
 </td>
 <td width="50%">
 
-### ⚙️ E3NG 1.2 Config
+### 🎮 CosplayRPG
 
 ```
 ┌──────────────────────────────────┐
-│  STATUS: Maintained              │
-│  TYPE:   Configuration           │
-│  LANG:   Firmware                │
+│  STATUS: In Development          │
+│  TYPE:   Application             │
+│  LANG:   C++                     │
 └──────────────────────────────────┘
 ```
 
-Custom firmware configuration and optimization for E3NG 3D printer. Performance tuning and feature enhancement.
+RPG-style application project built in C++. A creative side project exploring game mechanics and interactive systems.
 
-**STACK:** `Marlin Firmware` `3D Printing` `Hardware`
+**STACK:** `C++` `Game Dev`
 
-**[📂 VIEW REPOSITORY →](https://github.com/HexLions/E3NG-1.2-Config)**
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/CosplayRPG)**
 
 </td>
 </tr>
@@ -163,6 +243,8 @@ Custom firmware configuration and optimization for E3NG 3D printer. Performance 
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 </details>
 
@@ -174,6 +256,7 @@ Custom firmware configuration and optimization for E3NG 3D printer. Performance 
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 </details>
 
@@ -183,6 +266,8 @@ Custom firmware configuration and optimization for E3NG 3D printer. Performance 
 
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi&logoColor=white)
+![ESP8266](https://img.shields.io/badge/ESP8266-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
 
 </details>
 
