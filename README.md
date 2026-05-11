@@ -100,7 +100,7 @@
 └──────────────────────────────────┘
 ```
 
-The tiniest self-hosted PaaS for your Raspberry Pi. Deploy, manage, edit and backup web apps directly from your browser. Two editions: **Standalone** (no Docker) and **Docker** (containerized).
+The tiniest self-hosted PaaS for Raspberry Pi. Deploy, manage, edit and backup web apps from your browser. Two editions on separate branches: **Standalone** (main, no Docker) and **Docker** (containerized apps with auto-Dockerfile generation). Built-in CodeMirror editor, scheduled backups, SQLite/PostgreSQL support, multi-distro installer.
 
 **STACK:** `Node.js` `HTML` `Shell` `Docker`
 
@@ -114,14 +114,14 @@ The tiniest self-hosted PaaS for your Raspberry Pi. Deploy, manage, edit and bac
 ```
 ┌──────────────────────────────────┐
 │  STATUS: Maintained      ⭐ 1    │
-│  TYPE:   Configuration           │
+│  TYPE:   Klipper Config          │
 │  LANG:   Firmware / Klipper      │
 └──────────────────────────────────┘
 ```
 
-Modern Klipper configuration for Ender 3 NG CoreXY with Orbiter 2.0. Advanced menu system, 40+ macros, print statistics and quick actions.
+Modern Klipper configuration for Ender 3 NG CoreXY with Orbiter 2.0 direct drive. 40+ macros, intelligent LCD menu (ST7920), material profiles (PLA/PETG/ABS/ASA/TPU), PA calibration generator, smart START_PRINT/END_PRINT, automated filament change.
 
-**STACK:** `Klipper` `Marlin` `3D Printing` `Hardware`
+**STACK:** `Klipper` `Orbiter 2.0` `BLTouch` `TMC2209`
 
 **[📂 VIEW REPOSITORY →](https://github.com/HexLions/E3NG-1.2-Config)**
 
@@ -140,9 +140,9 @@ Modern Klipper configuration for Ender 3 NG CoreXY with Orbiter 2.0. Advanced me
 └──────────────────────────────────┘
 ```
 
-ESP8266-based service monitoring system for homelab. Monitors up to 50 HTTP/HTTPS services with OLED display, web dashboard and smart Telegram notifications.
+ESP8266-based service monitoring system for homelab. Monitors up to 50 HTTP/HTTPS services with OLED display, web dashboard and smart Telegram notifications with rate limiting, RAM-aware queue, and anti-restart protection.
 
-**STACK:** `C++` `Arduino` `ESP8266` `IoT`
+**STACK:** `C++` `Arduino` `ESP8266` `Telegram Bot`
 
 **[📂 VIEW REPOSITORY →](https://github.com/HexLions/esp01-monitor)**
 
@@ -159,9 +159,9 @@ ESP8266-based service monitoring system for homelab. Monitors up to 50 HTTP/HTTP
 └──────────────────────────────────┘
 ```
 
-ESP32-CAM integration for Klipper 3D printing firmware. Camera streaming and monitoring directly from the printer control interface.
+Single-file MJPEG streaming firmware for AI Thinker ESP32-CAM optimized for Mainsail/Fluidd. Dedicated FreeRTOS stream task, WiFi watchdog with auto-restart, HTTP-controlled flash LED with Klipper macro integration.
 
-**STACK:** `C++` `ESP32` `Klipper` `Hardware`
+**STACK:** `C++` `ESP32` `Klipper` `MJPEG`
 
 **[📂 VIEW REPOSITORY →](https://github.com/HexLions/ESP32-CAM-for-Klipper)**
 
@@ -170,40 +170,61 @@ ESP32-CAM integration for Klipper 3D printing firmware. Camera streaming and mon
 <tr>
 <td width="50%">
 
-### 🔧 Threaded Insert Press
+### ⚔️ CosplayRPG
 
 ```
 ┌──────────────────────────────────┐
 │  STATUS: Active                  │
+│  TYPE:   Wearable / IoT          │
+│  LANG:   C++                     │
+└──────────────────────────────────┘
+```
+
+Wearable cosplay RPG badge built on ESP-01S + 0.96" OLED. Generates a personalized character card with deterministic stats from your name, fetches live Italian cosplay conventions from cosplayersitaliani.it, NTP clock, captive portal WiFi setup, persistent EEPROM config.
+
+**STACK:** `C++` `ESP-01S` `SSD1306` `NTP`
+
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/CosplayRPG)**
+
+</td>
+<td width="50%">
+
+### 🔧 Threaded Insert Press
+
+```
+┌──────────────────────────────────┐
+│  STATUS: Active          ⭐ 1    │
 │  TYPE:   Open Source             │
 │  LANG:   CAD / Manufacturing     │
 └──────────────────────────────────┘
 ```
 
-Open-source parametric 3D printable press for threaded inserts. Fully parametric design with customizable dimensions.
+70% 3D-printable precision press for heat-set threaded inserts. V-slot linear motion, weight-assisted gravity-powered insertion, ~$30 build cost. Compatible with M2-M5 inserts, includes BOM and full assembly guide.
 
-**STACK:** `Fusion 360` `Mechanical Design` `3D Printing`
+**STACK:** `Fusion 360` `STL` `V-slot` `Mechanical Design`
 
 **[📂 VIEW REPOSITORY →](https://github.com/HexLions/Threaded-Insert-Press-Open-source)**
 
 </td>
-<td width="50%">
+</tr>
+<tr>
+<td colspan="2">
 
-### 🎮 CosplayRPG
+### 🎮 GBP-Downloader
 
 ```
 ┌──────────────────────────────────┐
-│  STATUS: In Development          │
-│  TYPE:   Application             │
-│  LANG:   C++                     │
+│  STATUS: Active                  │
+│  TYPE:   Web App / Retrogaming   │
+│  LANG:   HTML / JavaScript       │
 └──────────────────────────────────┘
 ```
 
-RPG-style application project built in C++. A creative side project exploring game mechanics and interactive systems.
+Single-page web tools for the **Game Boy Printer Emulator** ecosystem — zero install, runs entirely in the browser via the Web Serial API. Receive Game Boy Camera photos from an Arduino over USB, decode 2bpp tile data into native PNG (single or batch ZIP export), and flash the GBP Emulator firmware onto Arduino Nano/Uno using STK500v1 — no `avrdude`, no Arduino IDE. DMG-themed green UI, GPL-3.0 licensed, hosted on GitHub Pages: **[hexlions.github.io/GBP-Downloader →](https://hexlions.github.io/GBP-Downloader/)**
 
-**STACK:** `C++` `Game Dev`
+**STACK:** `HTML` `JavaScript` `Web Serial API` `STK500v1` `Arduino`
 
-**[📂 VIEW REPOSITORY →](https://github.com/HexLions/CosplayRPG)**
+**[📂 VIEW REPOSITORY →](https://github.com/HexLions/GBP-Downloader)**
 
 </td>
 </tr>
@@ -257,6 +278,8 @@ RPG-style application project built in C++. A creative side project exploring ga
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![TrueNAS](https://img.shields.io/badge/TrueNAS-0095D5?style=for-the-badge&logo=truenas&logoColor=white)
 
 </details>
 
@@ -268,6 +291,7 @@ RPG-style application project built in C++. A creative side project exploring ga
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi&logoColor=white)
 ![ESP8266](https://img.shields.io/badge/ESP8266-000000?style=for-the-badge&logo=espressif&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
+![Klipper](https://img.shields.io/badge/Klipper-D00000?style=for-the-badge&logoColor=white)
 
 </details>
 
