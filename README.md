@@ -35,9 +35,9 @@
 ```
 ┌─────────────────────────┐
 │ Cosimo Leoni            │
-│ IT Specialist           │
-│ @ Vignamaggio           │
-│ Greve in Chianti, IT    │
+│ IT Tech                 │
+│                         │
+│                         │
 └─────────────────────────┘
 ```
 
